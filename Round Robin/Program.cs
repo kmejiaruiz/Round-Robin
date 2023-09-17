@@ -17,7 +17,6 @@ namespace Round_Robin
                     new Process ("P3", 2),
                     new Process ("P4", 4 ),
                 };
-            Console.WriteLine("\n");
             int quantum = 2;
             RunRoundRobin(processes, quantum);
         }
